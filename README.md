@@ -1,2 +1,6 @@
-# Digit-recognition
-数字识别
+Digital Image Processing 
+
+this repo include matlab scripts about  DIP
+
+
+
