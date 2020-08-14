@@ -1,6 +1,12 @@
 clc
 clear
 close all 
-
-a=textread('logo.txt','%s');
-fopen('')
+f1 = fopen('logo.txt', 'r');
+dd = fscanf(f1,'%x');
+figdata = dec2hex(dd);
+f2 = fopen('figdata.txt','w');
+for ii = 1:1:
+    fprintf(f2, '%s\n', figdata(ii));
+end
+fclose(f1);
+fclose(f2);
